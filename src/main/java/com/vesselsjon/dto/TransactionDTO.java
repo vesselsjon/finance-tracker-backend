@@ -10,6 +10,6 @@ public class TransactionDTO {
     private String description;
     private BigDecimal amount;
     private String type;
-    private String category;
+    private Long categoryId;
     private LocalDate date;
 }
